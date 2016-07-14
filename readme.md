@@ -28,7 +28,7 @@ Run code coverage:
 npm run cover
 ```
 
-Investigate the output json files in `.nyc_output`.
+Investigate the output json files in `.nyc_output`.  Open the `json` file and look at the absolute file paths.
 
 What you will see:
 
