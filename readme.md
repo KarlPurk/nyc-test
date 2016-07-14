@@ -41,3 +41,5 @@ What is expected:
 ```
 ~/projects/nyc-test/src/calc.ts
 ```
+
+Now switch to the `javascript` branch and follow the same steps.  On this branch the absolute file paths will be correct.
