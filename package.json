@@ -1,0 +1,19 @@
+{
+  "name": "nyc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers ts:ts-node/register test/",
+    "precover": "rm -fr .nyc_output",
+    "cover": "nyc --extension .ts npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "nyc": "^7.0.0",
+    "ts-node": "^0.9.3",
+    "typescript": "^1.8.10"
+  }
+}
