@@ -29,3 +29,15 @@ npm run cover
 ```
 
 Investigate the output json files in `.nyc_output`.
+
+What you will see:
+
+```
+~/projects/src/calc.ts
+```
+
+What is expected:
+
+```
+~/projects/nyc-test/src/calc.ts
+```
